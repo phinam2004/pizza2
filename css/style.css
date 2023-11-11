@@ -1,0 +1,115 @@
+@font-face {
+	font-family: AmaticSC;
+	src: url(../fonts/AmaticSC-Regular.ttf);
+}
+body { font-family: AmaticSC;}
+a.navbar-brand { font-size: 40px;}
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.59)!important;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand { color: white;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #d6d6d6;
+}
+.carousel-inner { height: 630px;}
+.carousel-caption {    padding-bottom: 30%;}
+.carousel-caption h1 { font-size: 100px;}
+.carousel-caption p { font-size: 35px;}
+.carousel-caption a.btn.btn-lg.btn-primary {
+    background: black;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.carousel-caption a.btn.btn-lg.btn-primary:hover {
+	background: #d6d6d6;
+	color: black;
+}
+.nav-tabs li a {
+    color: white;
+    background: black;
+    font-size: 40px;
+    padding: 15px 100px;
+    line-height: 1.42857143;
+    border: 1px solid white;
+    border-radius: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,.nav-tabs>li>a:hover {
+	background: #f44336;
+	color: white;
+}
+.tab-pane h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+}
+.tab-pane h3 {font-size: 35px;color: gray;}
+.label {
+    color: black;
+    font-weight: 100;
+}
+.label-success {color: white;}
+.page-header h1 {
+	font-size: 70px;
+	color: white;
+}
+section#menu {
+    background: black;
+    padding: 50px 0 70px 0;
+}
+div#menuList {
+    border: 1px solid white;
+    padding: 0;
+    background: rgb(234, 234, 234);
+}
+.tab-pane {
+    padding: 0 0 0 20px;
+}
+section#about, section#contact {
+    background: #8b5f5b;
+    padding: 50px 0 70px 0;
+	color: white;
+	letter-spacing: 2px;
+}
+.aboutImg {
+	position: relative;
+	margin-top: 20px;
+}
+.khoiMo {
+/*    width: 100%;
+*/    height: 780px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+}
+section#contact {
+    background: #6c7a81;
+    padding: 50px 0 70px 0;
+    line-height: 20px;
+}
+.label-info {
+    background: black;
+    letter-spacing: 2px;
+    color: white;
+    padding: 5px 9px;
+}
+footer {
+    height: 120px;
+    padding-top: 35px;
+    background: black;
+    color: #fff;
+    margin: 20px 0 0 0 ;
+    letter-spacing: 3px;
+}
+input.input, input#login {
+    font-size: 30px;
+    height: 65px;
+    border-radius: 0;
+}
+.textError { color: black; font-size: 23px;}
+.formError { border: solid 1px red;}
